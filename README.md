@@ -49,6 +49,19 @@ command : git branch -d [BRANCH NAME]
 
 Show all branch
 command : git branch
+=======
+******************************************************
+*                          Remote Repository                                      *
+******************************************************
+1) git push => copy source code from Local to Remote Repository
+    push to remote => used syntax "git push [NICKNAME] [BRANCH]"
+    Fetch and Merge => use syntax "git pull [NICKNAME] [BRANCH]"
+2) git clone => combine "git init" + "git remote" + "git pull" 
+3) git pull => pull source code from Remote Repository to Local
+    "git pull" make sequence as fetch then merge
+    => git fetch [NICKNAME] only pull source code, not auto merge
+    => git merge [BRANCH]  
+	=> git rebase [BRANCH]  
 
 Commit --> $commit -m "Your Messsage"
 Status --> $git status
@@ -60,4 +73,3 @@ Remove files (git cache) --> $git rm --cached <file>
 Help Command --> $git help <COMMAND>
 Move files --> $git MV <NAME> <NEW NAME>
 
->>>>>>> b629648c82d65c7c502866109d9273a3ee109c11
