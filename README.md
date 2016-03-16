@@ -1,24 +1,24 @@
 # IMC-git101
 <h1>install git</h1>
-เร่ิมจาก dowload   file  http://git-scm.com
-หลังจาก install เรียบร้อยแล้ว 
-เริ่มทำงานโดยใช้คำสั่ง
-$git config --gobal user.name "your name" -- > ระบุชื่อที่เราต้องการ
-$git config --gobal user.email "your email" --> ระบุชื่อ Email ที่เราต้องการ
-$git config -l --> เพื่ดูว่ารายการที่เราเพิ่มทั้ง 2 รายการนั้นได้เพิ่มเรียบร้อยหรือไม่
-Creare a repository
-select git bash --os window
-open Terminial --os mac/linux
-เข้าไปหน้า git bash เพื่อจะเข้าสู่การป้อนคำสั่ง 
-เริ่มจาก ส้ราง folder 
-$mkdir workspace -- > workspec = ชื่อสามารถกำหนดตามความต้องการ
-$git init
-pwd  --> คำสั่งแสดง Current Path
+เร่ิมจาก dowload   file  http://git-scm.com </br>
+หลังจาก install เรียบร้อยแล้ว  </br>
+<h1>เริ่มทำงานโดยใช้คำสั่ง</h1>
+$git config --gobal user.name "your name" -- > ระบุชื่อที่เราต้องการ </br>
+$git config --gobal user.email "your email" --> ระบุชื่อ Email ที่เราต้องการ </br>
+$git config -l --> เพื่ดูว่ารายการที่เราเพิ่มทั้ง 2 รายการนั้นได้เพิ่มเรียบร้อยหรือไม่ </br>
+<h1>Creare a repository</h1>
+select git bash --os window </br>
+open Terminial --os mac/linux </br>
+<h1>เริ่มเข้าใช้งาน git </h1>
+เข้าไปหน้า git bash เพื่อจะเข้าสู่การป้อนคำสั่เริ่มจาก ส้ราง folde </br>r 
+$mkdir workspace -- > workspec = ชื่อสามารถกำหนดตามความต้องการ  </br>
+$git init set directory นั้้นให้ git รู้จัก </br>
+pwd  --> คำสั่งแสดง Current Path</br>
 
-﻿$git status คือ คำสั่งดูstatusของปัจจุบัน
-$git touch ตามด้วยชื่อFile คือ คำสั่งสร้างFile
-$git add ตามด้วยชื่อไฟล์  คือ คำสั่งaddเข้า stage (การเก็บเข้าStage คล้ายกับการสร้าง Temp File ก่อนการ Commit)
-$git add . คือ คำสั่งadd Fileที่มีอยู่ทั้งหมดเข้า stage
+﻿$git status คือ คำสั่งดูstatusของปัจจุบัน  </br>
+$git touch ตามด้วยชื่อFile คือ คำสั่งสร้างFile </br>
+$git add ตามด้วยชื่อไฟล์  คือ คำสั่งaddเข้า stage (การเก็บเข้าStage คล้ายกับการสร้าง Temp File ก่อนการ Commit)  </br>
+$git add . คือ คำสั่งadd Fileที่มีอยู่ทั้งหมดเข้า stage </br>
 
 <h1>Ignore files and folders</h1>
 - ไฟล์ หรือโฟลเดอร์ที่มีนามสกุล .gitignore จะไม่ถูก git สนใจก่อนที่จะทำการ commit
