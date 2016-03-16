@@ -27,4 +27,3 @@ Remove files (git cache) --> $git rm --cached <file>
 Help Command --> $git help <COMMAND>
 Move files --> $git MV <NAME> <NEW NAME>
 
->>>>>>> b629648c82d65c7c502866109d9273a3ee109c11
