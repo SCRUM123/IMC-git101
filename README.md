@@ -107,3 +107,4 @@ Help Command --> $git help <COMMAND><br/>
 Move files --> $git MV <NAME> <NEW NAME><br/>
 <br/>
 
+<img src="https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-xta1/v/t1.0-9/12106758_616016458545698_2281685477610694246_n.jpg?oh=397b045e98cb10671e962b84bacca812&oe=57577EAB&__gda__=1468672034_b063312705848bfcbd624b3c6a0ab18d"/>
