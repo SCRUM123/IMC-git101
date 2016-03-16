@@ -1,17 +1,17 @@
 # IMC-git101
-Generae ssh key ad add to Gtithub
-1.use command "$ssh-keygen"
-2.copy data in id_rsa.pub
-3.setting ssh key on github
+<h1>Generae ssh key ad add to Gtithub</h1>
+1.use command "$ssh-keygen" <br/>
+2.copy data in id_rsa.pub <br/>
+3.setting ssh key on github <br/>
 
-Testing SSH connection
-use command "$SSh -T git@github.com"
+<h1>Testing SSH connection</h1>
+use command "$SSh -T git@github.com" <br/>
 
-Add remote
-use command "$git remote add [NICKNAME] [Remote url]"
+<h1>Add remote</h1>
+use command "$git remote add [NICKNAME] [Remote url]" <br/>
 
-Remove remote
-use command "$git rm [NICKNAME]"
+<h1>Remove remote</h1>
+use command "$git rm [NICKNAME]" <br/>
 
-Rename remote
-use command "$git rename [OLD NICKNAME] [NEW NICKNAME]"
+<h1>Rename remote</h1>
+use command "$git rename [OLD NICKNAME] [NEW NICKNAME]" <br/>
