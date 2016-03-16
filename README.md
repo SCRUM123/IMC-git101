@@ -53,19 +53,19 @@ use command "$git rename [OLD NICKNAME] [NEW NICKNAME]" <br/>
 Each branach point to a commit
 - after commit it look like  below.
 
-                  ==========
-                  = Master =
-                  ========== 
-                       |	
-                       V
-======    ======    ======
-= C1 = <- = C2 = <- = C3 =
-======    ======    ======
-   |         |         |
-   V	     V         V
-======== ========  ========
-=Tree 1= =Tree 2=  =Tree 3=
-======== ========  ========
+                  ==========<br/>
+                  = Master =<br/>
+                  ========== <br/>
+                       |	<br/>
+                       V<br/>
+======    ======    ======<br/>
+= C1 = <- = C2 = <- = C3 =<br/>
+======    ======    ======<br/>
+   |         |         |<br/>
+   V	     V         V<br/>
+======== ========  ========<br/>
+=Tree 1= =Tree 2=  =Tree 3=<br/>
+======== ========  ========<br/>
 
 It make pointer of commit same pointer
 ----------------------------------------
