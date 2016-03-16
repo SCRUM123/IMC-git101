@@ -84,15 +84,15 @@ command : git branch
 
 <h1>Remote Repository*******</h1>
 
-1) git push => copy source code from Local to Remote Repository
-    push to remote => used syntax "git push [NICKNAME] [BRANCH]"
-    Fetch and Merge => use syntax "git pull [NICKNAME] [BRANCH]"<br/>
-2) git clone => combine "git init" + "git remote" + "git pull"<br>
+1) git push => copy source code from Local to Remote Repository<br/>
+   push to remote => used syntax "git push [NICKNAME] [BRANCH]"<br/>
+   Fetch and Merge => use syntax "git pull [NICKNAME] [BRANCH]"<br/>
+2) git clone => combine "git init" + "git remote" + "git pull"<br/>
 3) git pull => pull source code from Remote Repository to Local
-    "git pull" make sequence as fetch then merge<br/>
-    => git fetch [NICKNAME] only pull source code, not auto merge<br/>
-    => git merge [BRANCH]<br/>
-	=> git rebase [BRANCH]<br/> 
+   "git pull" make sequence as fetch then merge<br/>
+   => git fetch [NICKNAME] only pull source code, not auto merge<br/>
+   => git merge [BRANCH]<br/>
+   	=> git rebase [BRANCH]<br/> 
 
 <br/>
 Commit --> $commit -m "Your Messsage"<br/>
