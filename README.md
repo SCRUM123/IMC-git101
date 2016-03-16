@@ -15,3 +15,16 @@ use command "$git rm [NICKNAME]"
 
 Rename remote
 use command "$git rename [OLD NICKNAME] [NEW NICKNAME]"
+
+******************************************************
+*                          Remote Repository                                      *
+******************************************************
+1) git push => copy source code from Local to Remote Repository
+    push to remote => used syntax "git push [NICKNAME] [BRANCH]"
+    Fetch and Merge => use syntax "git pull [NICKNAME] [BRANCH]"
+2) git clone => combine "git init" + "git remote" + "git pull" 
+3) git pull => pull source code from Remote Repository to Local
+    "git pull" make sequence as fetch then merge
+    => git fetch [NICKNAME] only pull source code, not auto merge
+    => git merge [BRANCH]  
+	=> git rebase [BRANCH]  
