@@ -82,7 +82,7 @@ command : git branch -d [BRANCH NAME]
 Show all branch
 command : git branch
 
-<h1>Remote Repository*******<h1>
+<h1>Remote Repository*******</h1>
 
 1) git push => copy source code from Local to Remote Repository
     push to remote => used syntax "git push [NICKNAME] [BRANCH]"
