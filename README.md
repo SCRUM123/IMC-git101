@@ -28,3 +28,14 @@ use command "$git rename [OLD NICKNAME] [NEW NICKNAME]"
     => git fetch [NICKNAME] only pull source code, not auto merge
     => git merge [BRANCH]  
 	=> git rebase [BRANCH]  
+
+Commit --> $commit -m "Your Messsage"
+Status --> $git status
+Lift Cycle of File Status | ( Untracked -> Unmodified -> Modified -> Staged)
+Try to reset --> $git resert HEAD <file>
+Remove files --> $rm <file>
+Remove files (git) --> $git rm <file>
+Remove files (git cache) --> $git rm --cached <file>
+Help Command --> $git help <COMMAND>
+Move files --> $git MV <NAME> <NEW NAME>
+
