@@ -15,3 +15,15 @@ use command "$git rm [NICKNAME]"
 
 Rename remote
 use command "$git rename [OLD NICKNAME] [NEW NICKNAME]"
+
+#PANUWAT
+Commit --> $commit -m "Your Messsage"
+Status --> $git status
+Lift Cycle of File Status | ( Untracked -> Unmodified -> Modified -> Staged)
+Try to reset --> $git resert HEAD <file>
+Remove files --> $rm <file>
+Remove files (git) --> $git rm <file>
+Remove files (git cache) --> $git rm --cached <file>
+Help Command --> $git help <COMMAND>
+Move files --> $git MV <NAME> <NEW NAME>
+
