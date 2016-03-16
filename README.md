@@ -53,19 +53,19 @@ use command "$git remote rename [OLD NICKNAME] [NEW NICKNAME]" <br/>
 Each branach point to a commit
 - after commit it look like  below.
 
-                  ==========
-                  = Master =
-                  ========== 
-                       |	
-                       V
-======    ======    ======
-= C1 = <- = C2 = <- = C3 =
-======    ======    ======
-   |         |         |
-   V	     V         V
-======== ========  ========
-=Tree 1= =Tree 2=  =Tree 3=
-======== ========  ========
+                  ==========<br/>
+                  = Master =<br/>
+                  ========== <br/>
+                       |	<br/>
+                       V<br/>
+======    ======    ======<br/>
+= C1 = <- = C2 = <- = C3 =<br/>
+======    ======    ======<br/>
+   |         |         |<br/>
+   V	     V         V<br/>
+======== ========  ========<br/>
+=Tree 1= =Tree 2=  =Tree 3=<br/>
+======== ========  ========<br/>
 
 It make pointer of commit same pointer
 ----------------------------------------
@@ -94,13 +94,16 @@ command : git branch
     => git merge [BRANCH]<br/>
 	=> git rebase [BRANCH]<br/> 
 
-Commit --> $commit -m "Your Messsage"
-Status --> $git status
-Lift Cycle of File Status | ( Untracked -> Unmodified -> Modified -> Staged)
-Try to reset --> $git resert HEAD <file>
-Remove files --> $rm <file>
-Remove files (git) --> $git rm <file>
-Remove files (git cache) --> $git rm --cached <file>
-Help Command --> $git help <COMMAND>
-Move files --> $git MV <NAME> <NEW NAME>
+<br/>
+Commit --> $commit -m "Your Messsage"<br/>
+Status --> $git status<br/>
+Lift Cycle of File Status | ( Untracked -> Unmodified -> Modified -> Staged)<br/>
+Try to reset --> $git resert HEAD <file><br/>
+Remove files --> $rm <file><br/>
+Remove files (git) --> $git rm <file><br/>
+Remove files (git cache) --> $git rm --cached <file><br/>
+Help Command --> $git help <COMMAND><br/>
+Move files --> $git MV <NAME> <NEW NAME><br/>
+<br/>
 
+<img src="https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-xta1/v/t1.0-9/12106758_616016458545698_2281685477610694246_n.jpg?oh=397b045e98cb10671e962b84bacca812&oe=57577EAB&__gda__=1468672034_b063312705848bfcbd624b3c6a0ab18d"/>
