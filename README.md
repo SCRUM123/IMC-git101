@@ -16,7 +16,53 @@ use command "$git rm [NICKNAME]" <br/>
 <h1>Rename remote</h1>
 use command "$git rename [OLD NICKNAME] [NEW NICKNAME]" <br/>
 
-#PANUWAT
+#Working with branch
+
+Each branach point to a commit
+- after commit it look like  below.
+
+                  ==========
+                  = Master =
+                  ========== 
+                       |	
+                       V
+======    ======    ======
+= C1 = <- = C2 = <- = C3 =
+======    ======    ======
+   |         |         |
+   V	     V         V
+======== ========  ========
+=Tree 1= =Tree 2=  =Tree 3=
+======== ========  ========
+
+It make pointer of commit same pointer
+----------------------------------------
+
+Create new branch
+command : git branch [BRANCH NAME]
+
+Switch branch
+command : git checkout [BRANCH NAME]
+
+Delete branch
+command : git branch -d [BRANCH NAME]
+
+Show all branch
+command : git branch
+=======
+******************************************************
+*                          Remote Repository                                      *
+******************************************************
+1) git push => copy source code from Local to Remote Repository
+    push to remote => used syntax "git push [NICKNAME] [BRANCH]"
+    Fetch and Merge => use syntax "git pull [NICKNAME] [BRANCH]"
+2) git clone => combine "git init" + "git remote" + "git pull" 
+3) git pull => pull source code from Remote Repository to Local
+    "git pull" make sequence as fetch then merge
+    => git fetch [NICKNAME] only pull source code, not auto merge
+    => git merge [BRANCH]  
+	=> git rebase [BRANCH]  
+
 Commit --> $commit -m "Your Messsage"
 Status --> $git status
 Lift Cycle of File Status | ( Untracked -> Unmodified -> Modified -> Staged)
