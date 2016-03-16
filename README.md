@@ -37,16 +37,16 @@ $git add . คือ คำสั่งadd Fileที่มีอยู่ทั
 3.setting ssh key on github <br/>
 
 <h1>Testing SSH connection</h1>
-use command "$SSh -T git@github.com" <br/>
+use command "$ssh -T git@github.com" <br/>
 
 <h1>Add remote</h1>
 use command "$git remote add [NICKNAME] [Remote url]" <br/>
 
 <h1>Remove remote</h1>
-use command "$git rm [NICKNAME]" <br/>
+use command "$git remote rm [NICKNAME]" <br/>
 
 <h1>Rename remote</h1>
-use command "$git rename [OLD NICKNAME] [NEW NICKNAME]" <br/>
+use command "$git remote rename [OLD NICKNAME] [NEW NICKNAME]" <br/>
 
 #Working with branch
 
@@ -81,19 +81,18 @@ command : git branch -d [BRANCH NAME]
 
 Show all branch
 command : git branch
-=======
-******************************************************
-*                          Remote Repository                                      *
-******************************************************
+
+<h1>Remote Repository*******<h1>
+
 1) git push => copy source code from Local to Remote Repository
     push to remote => used syntax "git push [NICKNAME] [BRANCH]"
-    Fetch and Merge => use syntax "git pull [NICKNAME] [BRANCH]"
-2) git clone => combine "git init" + "git remote" + "git pull" 
+    Fetch and Merge => use syntax "git pull [NICKNAME] [BRANCH]"<br/>
+2) git clone => combine "git init" + "git remote" + "git pull"<br>
 3) git pull => pull source code from Remote Repository to Local
-    "git pull" make sequence as fetch then merge
-    => git fetch [NICKNAME] only pull source code, not auto merge
-    => git merge [BRANCH]  
-	=> git rebase [BRANCH]  
+    "git pull" make sequence as fetch then merge<br/>
+    => git fetch [NICKNAME] only pull source code, not auto merge<br/>
+    => git merge [BRANCH]<br/>
+	=> git rebase [BRANCH]<br/> 
 
 Commit --> $commit -m "Your Messsage"
 Status --> $git status
