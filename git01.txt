@@ -1,0 +1,5 @@
+﻿$git status คือ คำสั่งดูstatusของปัจจุบัน
+$git touch ตามด้วยชื่อFile คือ คำสั่งสร้างFile
+$git add ตามด้วยชื่อไฟล์  คือ คำสั่งaddเข้า stage (การเก็บเข้าStage คล้ายกับการสร้าง Temp File ก่อนการ Commit)
+$git add . คือ คำสั่งadd Fileที่มีอยู่ทั้งหมดเข้า stage
+
