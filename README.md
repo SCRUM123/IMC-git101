@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # IMC-git101
+=======
+﻿# IMC-git101
+>>>>>>> 6faba85acc33d2a064fa8b71f6b02f887b7822d1
 <h1>install git</h1>
 เร่ิมจาก dowload   file  http://git-scm.com </br>
 หลังจาก install เรียบร้อยแล้ว  </br>
@@ -20,6 +24,10 @@ $git touch ตามด้วยชื่อFile คือ คำสั่งส
 $git add ตามด้วยชื่อไฟล์  คือ คำสั่งaddเข้า stage (การเก็บเข้าStage คล้ายกับการสร้าง Temp File ก่อนการ Commit)  </br>
 $git add . คือ คำสั่งadd Fileที่มีอยู่ทั้งหมดเข้า stage </br>
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6faba85acc33d2a064fa8b71f6b02f887b7822d1
 <h1>Ignore files and folders</h1>
 - ไฟล์ หรือโฟลเดอร์ที่มีนามสกุล .gitignore จะไม่ถูก git สนใจก่อนที่จะทำการ commit
 
